@@ -1,18 +1,13 @@
 #image: condaforge/miniforge3:latest
 #  file: Dockerfile
 
-
-    init: |
-      npm install
-      npm run configure-database
-
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 tasks:
   - name: Dependencies - conda
   - init: |
       echo 'init script' # runs during prebuild
       wget -O Miniforge3-Linux-x86_64.sh https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh
-      bash Miniforge3-Linux-x86_64.sh -h
+    command: bash Miniforge3-Linux-x86_64.sh -h
 
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
 ports:
