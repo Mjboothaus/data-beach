@@ -6,8 +6,12 @@ tasks:
   - name: Dependencies - conda
   - init: |
       echo 'init script' # runs during prebuild
-      wget -O Miniforge3-Linux-x86_64.sh https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh
-    command: bash Miniforge3-Linux-x86_64.sh -h
+      curl -L -O https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-$(uname)-$(uname -m).sh
+      bash Mambaforge-$(uname)-$(uname -m).sh -b
+      source ~/.bashrc
+      rm Mambaforge-$(uname)-$(uname -m).sh
+      mamba install -c conda-forge jupyterlab
+    command: conda -V
 
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
 ports:
