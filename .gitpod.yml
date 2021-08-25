@@ -16,6 +16,9 @@ tasks:
       mamba install -c conda-forge jupyterlab -y
       mamba install -c conda-forge httpx -y
       mamba install -c conda-forge pandas -y
+      conda create --name dbooth python=3.8
+      python -m ipykernel install --user --name=dbooth
+      conda activate dbooth
     command: conda -V && python -V
 
 ## NOTE: Plan for now is just to work in the conda base environment - could use a one or two other
@@ -30,3 +33,10 @@ ports:
   - port: 8888
     onOpen: notify
 
+
+
+vscode:
+  extensions:
+    - "eamodio.gitlens"
+
+#TODO: Need to check syntax for VS Code extensions
