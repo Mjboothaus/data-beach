@@ -10,10 +10,17 @@ tasks:
         --output /workspace/Mambaforge3-Linux-x86_64.sh
       bash /workspace/Mambaforge3-Linux-x86_64.sh -b -p /workspace/miniforge3
       echo "PATH="/workspace/miniforge3/bin:$PATH"" >> ${HOME}/.bashrc
-      source ~/.bashrc
       rm /workspace/Mambaforge3-Linux-x86_64.sh
+      /workspace/miniforge3/bin/conda init bash
+      source ~/.bashrc
       mamba install -c conda-forge jupyterlab -y
+      mamba install -c conda-forge httpx -y
+      mamba install -c conda-forge pandas -y
     command: conda -V && python -V
+
+## NOTE: Plan for now is just to work in the conda base environment - could use a one or two other
+#.       conda envs if warranted -- this disposable Gitpod.io infrastructure sort of takes care
+#.       of not getting too distracted with Docker / virtualenvs / conda envs.
 
 ## NOTE: /home/gitpod/mambaforge is where things are being install - for some reason
 #.       .bashrc is not getting updated with conda info
@@ -21,5 +28,5 @@ tasks:
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
 ports:
   - port: 8888
-    onOpen: open-browser
+    onOpen: notify
 
