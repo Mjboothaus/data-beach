@@ -10,7 +10,7 @@ tasks:
       bash Mambaforge3-Linux-x86_64.sh -b -p /opt/miniforge3
       echo "PATH="/opt/miniconda3/bin:$PATH"" >> ${HOME}/.bashrc
       source ~/.bashrc
-      Mambaforge3-Linux-x86_64.sh
+      rm Mambaforge3-Linux-x86_64.sh
       mamba install -c conda-forge jupyterlab -y
     command: conda -V
 
