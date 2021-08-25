@@ -16,7 +16,7 @@ tasks:
       conda create --name dbooth python=3.8 -y
       python -m ipykernel install --user --name=dbooth
       conda activate dbooth
-      mamba install -c conda-forge jupyterlab pandas httpx -y
+      mamba install -c conda-forge jupyterlab pandas httpx deon -y
     command: conda -V && python -V
 
 
