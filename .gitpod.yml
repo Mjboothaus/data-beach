@@ -13,16 +13,10 @@ tasks:
       rm /workspace/Mambaforge3-Linux-x86_64.sh
       /workspace/miniforge3/bin/conda init bash
       source ~/.bashrc
-      mamba install -c conda-forge jupyterlab -y
-      mamba install -c conda-forge httpx -y
-      mamba install -c conda-forge pandas -y
       conda create --name dbooth python=3.8 -y
       python -m ipykernel install --user --name=dbooth
       conda activate dbooth
-      mamba install ipykernel -y  
-      mamba install pandas -y
-      mamba install httpx -y
-
+      mamba install -c conda-forge jupyterlab pandas httpx -y
     command: conda -V && python -V
 
 
