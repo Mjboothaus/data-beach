@@ -6,19 +6,20 @@ tasks:
   - name: Dependencies - conda (via Mambaforge / Miniforge)
   - init: |
       echo 'init script' # runs during prebuild
-      curl -L -O https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge3-Linux-x86_64.sh
-      bash Mambaforge3-Linux-x86_64.sh -b -p /opt/miniforge3
-      echo "PATH="/opt/miniconda3/bin:$PATH"" >> ${HOME}/.bashrc
+      curl -L https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-Linux-x86_64.sh \
+        --output /workspace/Mambaforge3-Linux-x86_64.sh
+      bash /workspace/Mambaforge3-Linux-x86_64.sh -b -p /workspace/miniforge3
+      echo "PATH="/workspace/miniforge3/bin:$PATH"" >> ${HOME}/.bashrc
       source ~/.bashrc
-      rm Mambaforge3-Linux-x86_64.sh
+      rm /workspace/Mambaforge3-Linux-x86_64.sh
       mamba install -c conda-forge jupyterlab -y
-    command: conda -V
+    command: conda -V && python -V
 
 ## NOTE: /home/gitpod/mambaforge is where things are being install - for some reason
 #.       .bashrc is not getting updated with conda info
 
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
 ports:
-  - port: 3000
-    onOpen: open-preview
+  - port: 8888
+    onOpen: open-browser
 
