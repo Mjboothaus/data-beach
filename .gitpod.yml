@@ -16,10 +16,17 @@ tasks:
       mamba install -c conda-forge jupyterlab -y
       mamba install -c conda-forge httpx -y
       mamba install -c conda-forge pandas -y
-      conda create --name dbooth python=3.8
+      conda create --name dbooth python=3.8 -y
       python -m ipykernel install --user --name=dbooth
       conda activate dbooth
+      mamba install ipykernel -y  
+      mamba install pandas -y
+      mamba install httpx -y
+
     command: conda -V && python -V
+
+
+## Note that 'dbooth' is a Python 3.8 environment -- hence multiple installs (in addition to base env)
 
 ## NOTE: Plan for now is just to work in the conda base environment - could use a one or two other
 #.       conda envs if warranted -- this disposable Gitpod.io infrastructure sort of takes care
