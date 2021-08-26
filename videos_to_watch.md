@@ -47,12 +47,9 @@ We use `conda` as a cross-platform package manager.
 
 ### JupyterLab and Jupyter notebook
 
-There is lots of general information here -
-https://jupyter.org
+There is lots of general information here - https://jupyter.org
 
-In progress.
-
-https://youtu.be/Ozq24uAshXo?t=40
+https://youtu.be/Ozq24uAshXo?t=40 (first 10 mins - 1.25 speed recommended)
 
 ASIDE: Read Michael's article on the Titanic data set. https://www.databooth.com.au/posts/titanic-data-quality/
 
