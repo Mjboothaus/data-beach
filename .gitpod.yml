@@ -11,14 +11,12 @@ tasks:
       rm /workspace/Mambaforge3-Linux-x86_64.sh
       /workspace/miniforge3/bin/conda init bash
       source ~/.bashrc
-      conda create --name db-conda python=3.8 -y
+      conda create --name db-conda --file environment.yaml
       python -m ipykernel install --user --name=db-conda
       conda activate db-conda
-      mamba install -c conda-forge jupyterlab pandas httpx deon -y
     command: conda -V && python -V
 
-
-## Currently 'conda-db' chooses to be a python 3.8 environment
+## Currently 'db-conda' chooses to be a python 3.8 environment
 
 # NOTE: Plan for now is just to work in the conda base environment - could use a one or two other
 #       conda envs if warranted -- this disposable Gitpod.io infrastructure sort of takes care
