@@ -23,7 +23,7 @@ https://www.gitpod.io/screencasts/navigating-your-workspace
 
 ## Visual Studio Code (VS Code)
 
-Visual Studio Code is a (free) integrated development environment (IDE) provided by Microsoft. Ultimately it is a text editor with lots of cool (community-contributed) extensions for being more productive and reducing errors.
+Visual Studio Code is a (free) integrated development environment (IDE) provided by Microsoft. Ultimately it is a text editor with lots of cool (community-contributed) extensions for being more productive and reducing errors. If you like using Vim, Emacs, Atom, JetBrains, nano etc and think you'll be more productive with one of these then let's have a chat.
 
 ## Python
 
