@@ -11,9 +11,9 @@ tasks:
       rm /workspace/Mambaforge3-Linux-x86_64.sh
       /workspace/miniforge3/bin/conda init bash
       source ~/.bashrc
-      conda create --name dbooth python=3.8 -y
-      python -m ipykernel install --user --name=conda-db
-      conda activate conda-db
+      conda create --name db-conda python=3.8 -y
+      python -m ipykernel install --user --name=db-conda
+      conda activate db-conda
       mamba install -c conda-forge jupyterlab pandas httpx deon -y
     command: conda -V && python -V
 
