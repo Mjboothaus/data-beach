@@ -54,3 +54,5 @@ In progress.
 
 https://youtu.be/Ozq24uAshXo?t=40
 
+ASIDE: Read Michael's article on the Titanic data set. https://www.databooth.com.au/posts/titanic-data-quality/
+
