@@ -19,3 +19,15 @@ https://www.gitpod.io/screencasts/always-ready-to-code
 
 https://www.gitpod.io/screencasts/navigating-your-workspace
 
+## Learning Visual Studio Code (VS Code)
+
+Visual Studio Code is a (free) integrated development environment (IDE) provided by Microsoft. Ultimately it is a text editor with lots of cool (community-contributed) extensions for being more productive and reducing errors.
+
+## Learning Python
+
+### Conda
+
+We use `conda` as a cross-platform package manager.
+
+
+
