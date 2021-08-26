@@ -1,7 +1,5 @@
-#image: condaforge/miniforge3:latest
-#  file: Dockerfile
-
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
+
 tasks:
   - name: Dependencies - conda (via Mambaforge / Miniforge)
   - init: |
@@ -14,30 +12,27 @@ tasks:
       /workspace/miniforge3/bin/conda init bash
       source ~/.bashrc
       conda create --name dbooth python=3.8 -y
-      python -m ipykernel install --user --name=dbooth
-      conda activate dbooth
+      python -m ipykernel install --user --name=conda-db
+      conda activate conda-db
       mamba install -c conda-forge jupyterlab pandas httpx deon -y
     command: conda -V && python -V
 
 
-## Note that 'dbooth' is a Python 3.8 environment -- hence multiple installs (in addition to base env)
+## Currently 'conda-db' chooses to be a python 3.8 environment
 
-## NOTE: Plan for now is just to work in the conda base environment - could use a one or two other
-#.       conda envs if warranted -- this disposable Gitpod.io infrastructure sort of takes care
-#.       of not getting too distracted with Docker / virtualenvs / conda envs.
+# NOTE: Plan for now is just to work in the conda base environment - could use a one or two other
+#       conda envs if warranted -- this disposable Gitpod.io infrastructure sort of takes care
+#       of not getting too distracted with Docker / virtualenvs / conda envs.
 
-## NOTE: /home/gitpod/mambaforge is where things are being install - for some reason
-#.       .bashrc is not getting updated with conda info
 
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
+
 ports:
   - port: 8888
     onOpen: notify
 
-
+# VS Code extensions to install
 
 vscode:
   extensions:
     - "eamodio.gitlens"
-
-#TODO: Need to check syntax for VS Code extensions
