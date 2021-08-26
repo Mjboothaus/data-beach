@@ -52,5 +52,5 @@ https://jupyter.org
 
 In progress.
 
-https://youtu.be/Ozq24uAshXo?t=15
+https://youtu.be/Ozq24uAshXo?t=40
 
