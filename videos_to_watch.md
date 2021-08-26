@@ -47,8 +47,10 @@ We use `conda` as a cross-platform package manager.
 
 ### JupyterLab and Jupyter notebook
 
-There is lots of information here -
+There is lots of general information here -
 https://jupyter.org
 
 In progress.
+
+https://youtu.be/Ozq24uAshXo?t=15
 
