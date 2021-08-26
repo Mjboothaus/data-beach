@@ -45,7 +45,10 @@ https://code.visualstudio.com/docs/datascience/overview
 
 We use `conda` as a cross-platform package manager.
 
-### Jupyter - notebooks & lab
+### JupyterLab and Jupyter notebook
+
+There is lots of information here -
+https://jupyter.org
 
 In progress.
 
