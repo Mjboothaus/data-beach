@@ -1,4 +1,3 @@
-name: db-conda
 channels:
   - conda-forge
 dependencies:
