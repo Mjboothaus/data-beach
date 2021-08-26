@@ -11,7 +11,7 @@ tasks:
       rm /workspace/Mambaforge3-Linux-x86_64.sh
       /workspace/miniforge3/bin/conda init bash
       source ~/.bashrc
-      conda create --name db-conda --file environment.yaml
+      conda env create --file environment.yml -n db-conda
       python -m ipykernel install --user --name=db-conda
       conda activate db-conda
     command: conda -V && python -V
