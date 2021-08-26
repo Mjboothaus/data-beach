@@ -7,6 +7,8 @@ probably have the same question(s).
 
 ## Learning Gitpod.io
 
+Gitpod is the (browser-delivered) platform that we use for our development work. It allows us to define our (disposable) environments in code and have a known starting point and the freedom to experiment without "fear", which is essential for learning to code and writing good quality, reproducible code.
+
 https://www.gitpod.io/screencasts
 
 ### Always ready to code
