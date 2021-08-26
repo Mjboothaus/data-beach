@@ -43,7 +43,7 @@ https://code.visualstudio.com/docs/datascience/overview
 
 ### Conda
 
-We use `conda` as a cross-platform package manager.
+We use `conda` as a cross-platform package manager. We install conda and then Python and a list of default packages in an enviroment called `condadb`.
 
 ### JupyterLab and Jupyter notebook
 
