@@ -25,6 +25,20 @@ https://www.gitpod.io/screencasts/navigating-your-workspace
 
 Visual Studio Code is a (free) integrated development environment (IDE) provided by Microsoft. Ultimately it is a text editor with lots of cool (community-contributed) extensions for being more productive and reducing errors. If you like using Vim, Emacs, Atom, JetBrains, nano etc and think you'll be more productive with one of these then let's have a chat.
 
+There are lots of videos on various aspects of VS Code.
+
+https://code.visualstudio.com/docs/getstarted/introvideos
+
+Also there are some tutorials on Python and Data Science within VS Code. Some of this information may be out of date as there is a lot of active development in this part of the ecosystem currently.
+
+https://code.visualstudio.com/docs/python/python-tutorial
+
+Please note that Jupyter notebooks can now be run/edited from within the VS Code environment.
+
+https://code.visualstudio.com/docs/datascience/overview
+
+
+
 ## Python
 
 ### Conda
