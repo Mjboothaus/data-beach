@@ -11,12 +11,12 @@ tasks:
       rm /workspace/Mambaforge3-Linux-x86_64.sh
       /workspace/miniforge3/bin/conda init bash
       source ~/.bashrc
-      conda env create --file environment.yml -n db-conda
-      python -m ipykernel install --user --name=db-conda
-      conda activate db-conda
+      conda env create --file environment.yml -n dbooth
+      python -m ipykernel install --user --name=dbooth
+      conda activate dbooth
     command: conda -V && python -V
 
-## Currently 'db-conda' chooses to be a python 3.8 environment
+## Currently 'dbooth' chooses to be a python 3.8 environment
 
 # NOTE: Plan for now is just to work in the conda base environment - could use a one or two other
 #       conda envs if warranted -- this disposable Gitpod.io infrastructure sort of takes care

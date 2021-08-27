@@ -22,9 +22,9 @@ dependencies:
   - pre_commit
   - sphinx
   - recommonmark
-- pip:
-   - -e .      # install git checkout of databooth package (this repo) in editable mode
-   # - other-pip-based-package
+  - pip:
+    - -e .      # install git checkout of databooth package (this repo) in editable mode
+    # - other-pip-based-package
 
 
 
