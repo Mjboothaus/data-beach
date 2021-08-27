@@ -31,3 +31,7 @@ Website related?
 DataBooth internal systems/knowledge base — move off Slite to open alternatives 
 
 Julia??
+
+Tree tracking / photos
+
+Creating shoe-wear data
