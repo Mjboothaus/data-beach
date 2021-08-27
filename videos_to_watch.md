@@ -45,6 +45,12 @@ https://code.visualstudio.com/docs/datascience/overview
 
 We use `conda` as a cross-platform package manager. We install conda and then Python and a list of default packages in an enviroment called `condadb`.
 
+`conda` is an open-source package manager very popular in the Python ecosystem that can be used as an alternative to `pip` (and in combination with `pip`). It is especially helpful when distributing packages that rely on compiled libraries (e.g. when you need to use some `C` code to achieve performance improvements). It can use Anaconda as its standard repository (a `PyPI` equivalent in the `conda` world), however we are using the more open conda-forge (and `mamba`) ecosystem at this point in time - not Anaconda.
+
+The main advantage of `conda` compared to virtual-environment (`venv`) based tools is that it unifies several different tools and has a deeper isolation than the `pip` package manager. For instance `conda` allows you to create isolated environments by specifying also the Python version and even system libraries (e.g. `glibc`). In the `pip` ecosystem, one needs a tool like `pyenv` to choose the Python version and the installation of system libraries besides the current ones is not possible at all.
+
+Again, like a lot of things in this space, there are other options. Michael has tried many/most of them. e.g. I do not recommend `pipenv`. Poetry is an interesting possibility. `conda` highly recommended for now.
+
 ### JupyterLab and Jupyter notebook
 
 There is lots of general information here - https://jupyter.org

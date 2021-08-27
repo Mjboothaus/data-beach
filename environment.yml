@@ -1,11 +1,30 @@
 channels:
   - conda-forge
+  - defaults
+  - fastai
 dependencies:
   - python >=3.8,<3.9
-  - pip >=21.0
-  - deon >=0.3
-  - pandas >=1.3
-  - jupyterlab >=3.1
-  - ipykernel >=6.2
-  - httpx >=0.19
+  - pip
+  # BASICS
+  - deon    # Data ethics checklist
+  - numpy
+  - scipy
+  - pandas
+  # JUPYTER - LAB, NOTEBOOK, IPYKERNEL
+  - jupyterlab 
+  - ipykernel
+  # OTHER
+  - httpx 
+  # DEVELOPMENT ONLY PACKAGES (could also be kept in a separate environment file)
+  - pytest
+  - pytest-cov
+  - tox
+  - pre_commit
+  - sphinx
+  - recommonmark
+- pip:
+   - -e .      # install git checkout of databooth package (this repo) in editable mode
+   # - other-pip-based-package
+
+
 
