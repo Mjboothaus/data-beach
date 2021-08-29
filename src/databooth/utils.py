@@ -25,7 +25,7 @@ def get_project_root() -> Path:
 # def get_notebook_name():
 
 
-def load_display_markdown(dotmd_file):
+def display_markdown_file(dotmd_file):
     dotmd_file_ext = Path(dotmd_file).suffix
     if dotmd_file_ext == ".md":
         if Path(dotmd_file).exists() == True:
