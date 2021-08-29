@@ -7,6 +7,14 @@ probably have the same question(s).
 
 The tech-stack that we have chosen is quite intentional and based on (a lot of) research. However the world, particularly in our space, changes quickly so we are always happy to hear about other alternatives. At this point in time you'll need to learn the following (although our choices are informed by what are re-usable skills to take away).
 
+## Operating the "right" way 
+
+The [Turing Way](https://the-turing-way.netlify.app) is a handbook to reproducible, ethical and collaborative data science. Any time spent exploring this wonderful resource is a good use of your time.
+### Putting it into practice
+
+Deon - [https://deon.drivendata.org](https://deon.drivendata.org) - while we are not interested in
+a compliance approach to things, i.e. we want our hearts and minds into it, this ethics checklist for data science is a useful resource.
+
 ## Gitpod.io
 
 Gitpod is the (browser-delivered) platform that we use for our development work. It allows us to define our (disposable) environments in code and have a known starting point and the freedom to experiment without "fear", which is essential for learning to code and writing good quality, reproducible code.
