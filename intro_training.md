@@ -1,4 +1,4 @@
-# Summary of Introductory Training Videos
+# Summary of Introductory Training
 
 All of these videos are short and sharpish, Depending on your previous experience, choose the ones that are most helpful to get you up to speed.
 
