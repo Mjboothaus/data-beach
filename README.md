@@ -11,9 +11,6 @@ Description
 
 A longer description of your project goes here...
 
-
-.. _pyscaffold-notes:
-
 Note
 ====
 
