@@ -10,10 +10,13 @@ The tech-stack that we have chosen is quite intentional and based on (a lot of) 
 ## Operating the "right" way 
 
 The [Turing Way](https://the-turing-way.netlify.app) is a handbook to reproducible, ethical and collaborative data science. Any time spent exploring this wonderful resource is a good use of your time.
+
+> The Turing Way Community, Becky Arnold, Louise Bowler, Sarah Gibson, Patricia Herterich, Rosie Higman, … Kirstie Whitaker. (2019, March 25). The Turing Way: A Handbook for Reproducible Data Science (Version v0.0.4). Zenodo. http://doi.org/10.5281/zenodo.3233986
 ### Putting it into practice
 
 Deon - [https://deon.drivendata.org](https://deon.drivendata.org) - while we are not interested in
 a compliance approach to things, i.e. we want our hearts and minds into it, this ethics checklist for data science is a useful resource.
+The Institute for Ethical AI & Machine Learning - https://ethical.institute
 
 ## Gitpod.io
 
