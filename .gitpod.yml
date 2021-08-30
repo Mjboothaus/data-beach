@@ -23,6 +23,10 @@ github:
     # add a "Review in Gitpod" button to the pull request's description (defaults to false)
     addBadge: false
 
+# The prebuilds section in the `.gitpod.yml` file configures when prebuilds are run. 
+# By default, prebuilds are run on push to the default branch and for each pull request coming from the same repository. 
+# Additionally, you can enable prebuilds for all branches (branches) and for pull requests from forks (pullRequestsFromForks).
+
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 
 tasks:
