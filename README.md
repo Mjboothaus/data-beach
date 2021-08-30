@@ -6,6 +6,8 @@
 
 Repo to assist our Python development using the Gitpod tooling with conda package management.
 
+See `.gitpod.yml` for the definition of the environment.
+
 Description
 ===========
 
