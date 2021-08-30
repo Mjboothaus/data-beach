@@ -6,14 +6,6 @@
 
 Repo to assist our Python development using the Gitpod tooling with conda package management.
 
-===============
-db-hello-gitpod
-===============
-
-
-Add a short description here!
-
-
 Description
 ===========
 
