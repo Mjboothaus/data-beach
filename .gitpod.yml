@@ -30,7 +30,7 @@ github:
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 
 tasks:
-  - name: Depends_install
+  - name: InstallActivateDboothConda
   - before: |
       curl -L https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-Linux-x86_64.sh \
         --output /workspace/Mambaforge3-Linux-x86_64.sh
@@ -40,10 +40,9 @@ tasks:
       /workspace/miniforge3/bin/conda init bash
       source ~/.bashrc
       conda env create --file environment.yml -n dbooth
-  - init: |
-      echo 'Init script' # runs during prebuild
       conda activate dbooth
-    command: conda -V && python -V && python -m ipykernel install --user --name=dbooth
+      python -m ipykernel install --user --name=dbooth
+      conda -V && python -V
 
 ## Currently 'dbooth' chooses to be a python 3.8 environment
 
