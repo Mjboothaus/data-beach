@@ -1,4 +1,4 @@
-# Summary of Introductory Training Videos
+# Summary of Introductory Training
 
 All of these videos are short and sharpish, Depending on your previous experience, choose the ones that are most helpful to get you up to speed.
 
@@ -6,6 +6,17 @@ Keep a list of questions and please ask for clarification on anything that doesn
 probably have the same question(s).
 
 The tech-stack that we have chosen is quite intentional and based on (a lot of) research. However the world, particularly in our space, changes quickly so we are always happy to hear about other alternatives. At this point in time you'll need to learn the following (although our choices are informed by what are re-usable skills to take away).
+
+## Operating the "right" way 
+
+The [Turing Way](https://the-turing-way.netlify.app) is a handbook to reproducible, ethical and collaborative data science. Any time spent exploring this wonderful resource is a good use of your time.
+
+> The Turing Way Community, Becky Arnold, Louise Bowler, Sarah Gibson, Patricia Herterich, Rosie Higman, … Kirstie Whitaker. (2019, March 25). The Turing Way: A Handbook for Reproducible Data Science (Version v0.0.4). Zenodo. http://doi.org/10.5281/zenodo.3233986
+### Putting it into practice
+
+Deon - [https://deon.drivendata.org](https://deon.drivendata.org) - while we are not interested in
+a compliance approach to things, i.e. we want our hearts and minds into it, this ethics checklist for data science is a useful resource.
+The Institute for Ethical AI & Machine Learning - https://ethical.institute
 
 ## Gitpod.io
 

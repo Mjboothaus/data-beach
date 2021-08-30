@@ -23,8 +23,9 @@ dependencies:
   - sphinx
   - recommonmark
   - pip:
-    - -e .      # install git checkout of databooth package (this repo) in editable mode
-    # - other-pip-based-package
+    - -e .         # install git checkout of databooth package (this repo) in editable mode
+
+
 
 
 
