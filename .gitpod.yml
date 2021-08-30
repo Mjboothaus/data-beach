@@ -4,6 +4,8 @@
 # When anyone starts a new workspace, all Gitpod needs to do is load the prebuilt workspace. 
 # Since the heavy-lifting happened during the prebuild phase, the workspace starts up quickly, allowing you to start your work right away.
 
+# Setup for GitHub.com -- Install the app here: https://github.com/apps/gitpod-io
+
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 
 tasks:
