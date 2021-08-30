@@ -1,3 +1,17 @@
+
+reshue.com.au / reshoo.com
+
+[12:50 pm, 28/08/2021] mjboothaus: I have a suggestion for a new Ambiguity Lab idea — haven’t done any research on it as yet
+[12:51 pm, 28/08/2021] mjboothaus: Basically the idea is gathering data on product wear and tear - From a sustainability and feedback to manufacture perspective
+[12:52 pm, 28/08/2021] mjboothaus: Initial example would be shoes - maybe reshoo.com.au or similar
+[12:53 pm, 28/08/2021] mjboothaus: So encourage people to take photos – in this case of their shoes – at end of first world wearability
+[12:53 pm, 28/08/2021] mjboothaus: The app would intelligently decide if the shoes could be re-purposed for Third World and provide data to manufacturer about how their product has performed
+[12:54 pm, 28/08/2021] mjboothaus: Anyway if you would like to throw idea around at some stage in the next few weeks on the virtual whiteboard let me know
+[12:54 pm, 28/08/2021] mjboothaus: I might try building a very rough prototype
+
+Build a simple Datasette.io with pictures of shoes -- unsplash? Bing images, etc -- see FastAI course
+
+
 Add Datasette authentication (e.g. magic & built-in) & custom templates — example - church congregation 
 
 Migration of Notion & GetFlow data (& chat)
