@@ -25,6 +25,7 @@ dependencies:
   - recommonmark
   - pip:
     - -e .         # install git checkout of databooth package (this repo) in editable mode
+    - pip install rich[jupyter]
 
 
 
