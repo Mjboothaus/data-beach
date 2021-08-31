@@ -1,6 +1,6 @@
-# `db-hello-gitpod`
-
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/DataBooth/db-hello-gitpod)
+
+# `db-hello-gitpod`
 
 ## DataBooth - Welcome to Gitpod (on-demand) Development Environment
 
