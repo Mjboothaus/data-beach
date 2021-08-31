@@ -44,7 +44,7 @@ tasks:
       mamba env create --file environment.yml -n dbooth
       conda activate dbooth
       python -m ipykernel install --user --name=dbooth
-      conda -V && mamba -V && python -V
+      conda -V && python -V
 
 ## Currently 'dbooth' chooses to be a python 3.8 environment
 
