@@ -14,7 +14,8 @@ dependencies:
   - jupyterlab 
   - ipykernel
   # OTHER
-  - httpx 
+  - httpx
+  - rich
   # DEVELOPMENT ONLY PACKAGES (could also be kept in a separate environment file)
   - pytest
   - pytest-cov
