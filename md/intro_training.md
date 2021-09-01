@@ -14,6 +14,7 @@ DataBooth has values which are central to the way we operate and do business. Th
 * Joy -- while we recognise that we live in a very flawed world, we aim to en-joy our work, value our colleagues and clients and not take ourselves too seriously,
 * Quality matters - see more on reproducibility below.
 * Collaboration - working together is more fun and leads to better solutions. Look for opportunities to pair-program. Our simple rule is that it is fine to "struggle" alone for a short while, but not a long time. So if you're stuck for more than 60 minutes on a task - ping someone on Slack and ask! :)
+* We all make mistakes -- Michael makes mistakes. Please escalate things early and often so that we can manage and mitigate them.
 * IN PROGRESS
 
 ### The Turing Way - A great resource/reference

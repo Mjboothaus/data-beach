@@ -1,0 +1,60 @@
+schema_type: dataframe
+version: 0.6.5
+columns:
+  Name:
+    pandas_dtype: str
+    nullable: false
+    checks: null
+    allow_duplicates: true
+    coerce: false
+    required: true
+    regex: false
+  Attribute 1:
+    pandas_dtype: int64
+    nullable: false
+    checks:
+      greater_than_or_equal_to: 22.0
+      less_than_or_equal_to: 97.0
+    allow_duplicates: true
+    coerce: false
+    required: true
+    regex: false
+  Attribute 2:
+    pandas_dtype: float64
+    nullable: false
+    checks:
+      greater_than_or_equal_to: 1.28
+      less_than_or_equal_to: 9.24
+    allow_duplicates: true
+    coerce: false
+    required: true
+    regex: false
+  Attribute 3:
+    pandas_dtype: int64
+    nullable: false
+    checks:
+      greater_than_or_equal_to: 2.0
+      less_than_or_equal_to: 7.0
+    allow_duplicates: true
+    coerce: false
+    required: true
+    regex: false
+  label:
+    pandas_dtype: str
+    nullable: false
+    checks: null
+    allow_duplicates: true
+    coerce: false
+    required: true
+    regex: false
+checks: null
+index:
+- pandas_dtype: int64
+  nullable: false
+  checks:
+    greater_than_or_equal_to: 0.0
+    less_than_or_equal_to: 7.0
+  name: null
+  coerce: false
+coerce: true
+strict: false
