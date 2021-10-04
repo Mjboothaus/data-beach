@@ -16,6 +16,10 @@ dependencies:
   # OTHER
   - httpx
   - rich
+  - scrapy
+  - requests
+  - streamlit
+  - selenium
   # DEVELOPMENT ONLY PACKAGES (could also be kept in a separate environment file)
   - pytest
   - pytest-cov
@@ -25,8 +29,3 @@ dependencies:
   - recommonmark
   - pip:
     - rich[jupyter]
-
-
-
-
-
